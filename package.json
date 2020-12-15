@@ -14,6 +14,9 @@
     "preshow:dist": "npm run build",
     "show:dist": "live-server dist"
   },
+  "engines": {
+    "node": "11.x"
+  },
   "author": "Ksenia Sidorova <nekfi@mail.ru>",
   "license": "MIT",
   "devDependencies": {

@@ -5,8 +5,7 @@ const app = new Koa();
 const WS = require('ws');
 
 const port = process.env.PORT || 7070;
-const server = http.createServer(app.callback());
-server.listen(port);
+const server = http.createServer(app.callback()).listen(port);
 const wsServer = new WS.Server({ server });
 
 const names = [];
