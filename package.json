@@ -15,7 +15,7 @@
     "show:dist": "live-server dist"
   },
   "engines": {
-    "node": "11.x"
+    "node": "12.20.0"
   },
   "author": "Ksenia Sidorova <nekfi@mail.ru>",
   "license": "MIT",
