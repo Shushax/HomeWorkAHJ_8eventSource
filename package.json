@@ -4,6 +4,7 @@
   "main": "js/app.js",
   "repository": "https://github.com/Shushax/HomeWorkAHJ2.1.git",
   "scripts": {
+    "startwebpack": "webpack-dev-server --mode development",
     "start": "node src/js/server.js",
     "build": "webpack --mode production",
     "lint": "eslint .",
@@ -15,7 +16,7 @@
     "show:dist": "live-server dist"
   },
   "engines": {
-    "node": "12.18.3"
+    "node": "12.20.0"
   },
   "author": "Ksenia Sidorova <nekfi@mail.ru>",
   "license": "MIT",
