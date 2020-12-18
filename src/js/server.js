@@ -26,3 +26,5 @@ wsServer.on('connection', (ws) => {
     }
   });
 });
+
+const test;
