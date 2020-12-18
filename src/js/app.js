@@ -1,7 +1,7 @@
 /* eslint import/no-cycle:0 */ // --> OFF
 /* eslint  import/prefer-default-export:0 */ // --> OFF
 
-const ws = new WebSocket('ws://localhost:7070');
+const ws = new WebSocket('ws://homeworkahj8eventsource.herokuapp.com');
 ws.addEventListener('open', () => {
   console.log('connected');
 });
